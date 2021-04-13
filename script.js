@@ -9,4 +9,13 @@ document.querySelector('#regamise-nupp').onclick = function(event) {
     var email = document.querySelector('#email').value
     console.log('Registreeris meeskond:', tiim, kuupaev, server, email)
 
+    var uusHTML = ""
+    uusHTML += "<p>"
+    uusHTML += tiim
+    uusHTML += kuupaev
+    uusHTML += server
+    uusHTML += email
+    uusHTML += "</p>"
+    console.log('uusHTML', uusHTML)
+
 }
