@@ -12,8 +12,11 @@ document.querySelector('#regamise-nupp').onclick = function(event) {
     var uusHTML = ""
     uusHTML += "<p>"
     uusHTML += tiim
+    uusHTML += ", "
     uusHTML += kuupaev
+    uusHTML += ", "
     uusHTML += server
+    uusHTML += ", "
     uusHTML += email
     uusHTML += "</p>"
     console.log('uusHTML', uusHTML)
