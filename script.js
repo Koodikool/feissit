@@ -18,4 +18,5 @@ document.querySelector('#regamise-nupp').onclick = function(event) {
     uusHTML += "</p>"
     console.log('uusHTML', uusHTML)
 
+    document.querySelector('#vastased').innerHTML += uusHTML
 }
