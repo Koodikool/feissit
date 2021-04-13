@@ -2,3 +2,8 @@ body {
   background-color: yellow;
   font-family: Arial;
 }
+
+input {
+  display: block;
+  margin-bottom: 6px;
+}
