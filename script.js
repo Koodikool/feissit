@@ -3,4 +3,10 @@ console.log('Vihje Googeldamiseks: Developer Tools Console')
 
 document.querySelector('#regamise-nupp').onclick = function(event) {
     console.log('Nupule klikiti!')
+    var tiim = document.querySelector('#tiim').value
+    var kuupaev = document.querySelector('#kuupaev').value
+    var server = document.querySelector('#server').value
+    var email = document.querySelector('#email').value
+    console.log('Registreeris meeskond:', tiim, kuupaev, server, email)
+
 }
